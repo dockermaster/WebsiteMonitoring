@@ -75,7 +75,7 @@ public class WebsiteMonitoring {
 			eyes.open(driver);
 
 			System.out.println("Take screenshot");
-			eyes.check(Target.window().fully());
+			eyes.check(Target.window().fully().withName(url));
 
 			System.out.println("Close connection to Eyes");
 			eyes.closeAsync();
@@ -100,9 +100,10 @@ public class WebsiteMonitoring {
 		Long height = (Long) ((JavascriptExecutor) driver).executeScript("return document.body.scrollHeight;");
 		for (int i = 0; i < height / 50; i++) {
 			((JavascriptExecutor) driver).executeScript("window.scrollBy(0,50);");
-			Thread.sleep(200);
+			Thread.sleep(500);
 			height = (Long) ((JavascriptExecutor) driver).executeScript("return document.body.scrollHeight;");
 		}
+		Thread.sleep(500);
 		((JavascriptExecutor) driver).executeScript("window.scrollTo(0,0);");
 	}
 
