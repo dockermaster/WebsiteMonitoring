@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12491" started-at="2022-08-05T12:43:16 PDT" finished-at="2022-08-05T12:43:28 PDT">
+  <suite name="Default suite" duration-ms="3661" started-at="2022-08-05T20:16:59Z" finished-at="2022-08-05T20:17:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12491" started-at="2022-08-05T12:43:16 PDT" finished-at="2022-08-05T12:43:28 PDT">
+    <test name="Default test" duration-ms="3661" started-at="2022-08-05T20:16:59Z" finished-at="2022-08-05T20:17:03Z">
       <class name="task.WebsiteMonitoring">
-        <test-method status="PASS" signature="runTask()[pri:0, instance:task.WebsiteMonitoring@11758f2a]" name="runTask" duration-ms="12461" started-at="2022-08-05T12:43:16 PDT" finished-at="2022-08-05T12:43:28 PDT">
+        <test-method status="PASS" signature="runTask()[pri:0, instance:task.WebsiteMonitoring@2aa3cd93]" name="runTask" duration-ms="3639" started-at="2022-08-05T20:16:59Z" finished-at="2022-08-05T20:17:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTask -->
