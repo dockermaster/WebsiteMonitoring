@@ -45,7 +45,7 @@ public class WebsiteMonitoring {
 
 		try {
 			
-			BatchInfo bi = new BatchInfo(url);
+			BatchInfo bi = new BatchInfo(testName);
 			
 			bi.setNotifyOnCompletion(true);
 
@@ -67,17 +67,21 @@ public class WebsiteMonitoring {
 			eyes.setConfiguration(sconf);
 
 			System.out.println("Navigating to " + url);
+			
 			driver.get(url);
 
 			handleLazyLoad(driver);
 
 			System.out.println("Open connection to Eyes");
+			
 			eyes.open(driver);
 
 			System.out.println("Take screenshot");
+			
 			eyes.check(Target.window().fully().withName(url));
 
 			System.out.println("Close connection to Eyes");
+			
 			eyes.closeAsync();
 
 			TestResultsSummary allTestResults = runner.getAllTestResults(false);
