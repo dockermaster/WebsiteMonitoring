@@ -1,30 +1,20 @@
 package task;
 
 import java.awt.Toolkit;
-import java.util.List;
-
-import javax.xml.crypto.dsig.SignatureMethod;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
-import com.applitools.eyes.BatchInfo;
 import com.applitools.eyes.EyesRunner;
 import com.applitools.eyes.RectangleSize;
 import com.applitools.eyes.TestResultsSummary;
 import com.applitools.eyes.config.Configuration;
-import com.applitools.eyes.selenium.BrowserType;
 import com.applitools.eyes.selenium.ClassicRunner;
 import com.applitools.eyes.selenium.Eyes;
 import com.applitools.eyes.selenium.StitchMode;
 import com.applitools.eyes.selenium.fluent.Target;
-import com.applitools.eyes.visualgrid.model.DeviceName;
-import com.applitools.eyes.visualgrid.services.VisualGridRunner;
 
 public class WebsiteMonitoring {
 
