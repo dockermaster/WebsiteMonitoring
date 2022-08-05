@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
+import com.applitools.eyes.BatchInfo;
 import com.applitools.eyes.EyesRunner;
 import com.applitools.eyes.RectangleSize;
 import com.applitools.eyes.TestResultsSummary;
@@ -43,9 +44,15 @@ public class WebsiteMonitoring {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 
 		try {
+			
+			BatchInfo bi = new BatchInfo(url);
+			
+			bi.setNotifyOnCompletion(true);
 
 			Configuration sconf = eyes.getConfiguration();
 
+			sconf.setBatch(bi);
+			
 			sconf.setApiKey(System.getenv("APPLITOOLS_API_KEY"));
 
 			sconf.setViewportSize(new RectangleSize(1600, 800));
