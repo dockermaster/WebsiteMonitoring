@@ -19,11 +19,13 @@ import com.applitools.eyes.selenium.fluent.Target;
 public class WebsiteMonitoring {
 
 	public static void main(String[] args) {
-		runTask();
+		WebsiteMonitoring wm = new WebsiteMonitoring();
+		
+		wm.runTask();
 	}
 
 	@Test
-	public static void runTask() {
+	public void runTask() {
 		String url = System.getenv("URL");
 
 		String testName = url;
