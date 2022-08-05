@@ -18,11 +18,11 @@ import com.applitools.eyes.selenium.fluent.Target;
 
 public class WebsiteMonitoring {
 
-	public static void main(String[] args) {
-		WebsiteMonitoring wm = new WebsiteMonitoring();
-		
-		wm.runTask();
-	}
+//	public static void main(String[] args) {
+//		WebsiteMonitoring wm = new WebsiteMonitoring();
+//		
+//		wm.runTask();
+//	}
 
 	@Test
 	public void runTask() {
