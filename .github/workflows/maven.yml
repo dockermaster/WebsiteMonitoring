@@ -8,6 +8,9 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  schedule:
+    - cron: '45 21 * * 1-5'
+
 
 jobs:
   build:
@@ -23,4 +26,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
+      env: 
+        APPLITOOLS_API_KEY : ${{ secrets.APPLITOOLS_API_KEY }}
+        URL : ${{ secrets.URL }}
       run: mvn test
