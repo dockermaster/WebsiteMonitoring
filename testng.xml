@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<test name="WebsiteMonitor">
 		<classes>
-			<class name="task.WebsiteMonitor" />
+			<class name="test.WebsiteMonitor" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
