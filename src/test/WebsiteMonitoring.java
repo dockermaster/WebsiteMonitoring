@@ -19,12 +19,6 @@ import com.applitools.eyes.selenium.fluent.Target;
 
 public class WebsiteMonitoring {
 
-//	public static void main(String[] args) {
-//		WebsiteMonitoring wm = new WebsiteMonitoring();
-//		
-//		wm.runTask();
-//	}
-
 	@Test
 	public void runTask() {
 		String url = System.getenv("URL");
@@ -78,7 +72,7 @@ public class WebsiteMonitoring {
 
 			System.out.println("Take screenshot");
 			
-			eyes.check(Target.window().fully().withName(url));
+			eyes.check(Target.window().fully().ignoreDisplacements(true).withName(url));
 
 			System.out.println("Close connection to Eyes");
 			
