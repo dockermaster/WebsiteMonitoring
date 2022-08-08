@@ -48,7 +48,7 @@ public class WebsiteMonitoring {
 		co.addArguments("--headless");
 		WebDriver driver = new ChromeDriver(co);
 
-		JavascriptExecutor js = (JavascriptExecutor) driver;W
+		JavascriptExecutor js = (JavascriptExecutor) driver;
 
 		try {
 			
