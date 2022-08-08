@@ -23,5 +23,5 @@ Instructions:
    - URL - the website you wish to monitor (e.g. http://www.github.com)
    - TITLE - a name of what you're actually monitoring (e.g. product name, company name), this will appear in your email alert subject line
 
-** You're all set **
+**You're all set**
 
