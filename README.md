@@ -19,9 +19,9 @@ Instructions:
 1. Fork this project
 2. Enable Actions
 3. Add 3 secrets ([3 simple steps](https://docs.github.com/en/actions/security-guides/encrypted-secrets))
-  a. APPLITOOLS_API_KEY
-  b. URL - the website you wish to monitor (e.g. http://www.github.com)
-  c. TITLE - a name of what you're actually monitoring (e.g. product name, company name), this will appear in your email alert subject line
+  - APPLITOOLS_API_KEY
+  - URL - the website you wish to monitor (e.g. http://www.github.com)
+  - TITLE - a name of what you're actually monitoring (e.g. product name, company name), this will appear in your email alert subject line
 
 ** You're all set **
 
