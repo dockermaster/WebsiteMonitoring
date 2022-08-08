@@ -29,4 +29,5 @@ jobs:
       env: 
         APPLITOOLS_API_KEY : ${{ secrets.APPLITOOLS_API_KEY }}
         URL : ${{ secrets.URL }}
+        TITLE : ${{ secrets.TITLE }}
       run: mvn test
