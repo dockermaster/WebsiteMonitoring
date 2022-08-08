@@ -8,13 +8,13 @@ Once a day you will get an email alert with the results of the monitoring bot.
 
 Instructions:
 
-###### Applitools Setup
+## Applitools Setup
 
 1. Create a free [Applitools account](https://applitools.com)
 2. Enable [email alerts](https://applitools.com/docs/features/batch-completion-email-integration.html)
 3. grab your [APPLITOOLS_API_KEY](https://applitools.com/docs/topics/overview/obtain-api-key.html)
 
-###### GitHug Setup
+## GitHug Actions Setup
 
 1. Fork this project
 2. Enable Actions
