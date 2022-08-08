@@ -22,8 +22,21 @@ public class WebsiteMonitoring {
 	@Test
 	public void runTask() {
 		String url = System.getenv("URL");
-
+		
 		String testName = url;
+		
+		try
+		{
+			String title = System.getenv("TITLE");
+			
+			if(title != null && title.length() > 0)
+				testName = title;
+		}
+		catch(Exception ex)
+		{
+			
+		}
+		
 
 		EyesRunner runner = null;
 
@@ -35,7 +48,7 @@ public class WebsiteMonitoring {
 		co.addArguments("--headless");
 		WebDriver driver = new ChromeDriver(co);
 
-		JavascriptExecutor js = (JavascriptExecutor) driver;
+		JavascriptExecutor js = (JavascriptExecutor) driver;W
 
 		try {
 			
