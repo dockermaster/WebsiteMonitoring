@@ -1,6 +1,4 @@
-# Website Monitoring
-
-This project is your simple solution to monitoring a website/url
+# Website Monitoring Bot
 
 Once a day you will get an email alert with the results of the monitoring bot.
 
