@@ -59,5 +59,5 @@ When you have all 3 secrets in you are all set!
 
 ![Secrets4](https://user-images.githubusercontent.com/20506018/183773899-823350f3-7b19-45d4-b05d-dc64dce3ab31.png)
 
-   - When you have all 3 secrets set your bot will run daily and send you reports!
+Your bot will now run daily and send you email reports!
 
