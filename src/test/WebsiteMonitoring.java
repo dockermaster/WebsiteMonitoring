@@ -1,4 +1,4 @@
-package test;
+package test; 
 
 import java.awt.Toolkit;
 import org.openqa.selenium.JavascriptExecutor;
