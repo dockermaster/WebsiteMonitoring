@@ -10,7 +10,7 @@ Instructions:
 2. Enable [email alerts](https://applitools.com/docs/features/batch-completion-email-integration.html)
 3. grab your [APPLITOOLS_API_KEY](https://applitools.com/docs/topics/overview/obtain-api-key.html)
 
-## GitHug Actions Setup
+## GitHub Actions Setup
 
 Click **Fork**
 
