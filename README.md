@@ -12,7 +12,7 @@ Instructions:
 
 ## GitHub Actions Setup
 
-Click **Fork**
+Click [**Fork**](https://github.com/dockermaster/WebsiteMonitoring)
 
 ![Fork](https://user-images.githubusercontent.com/20506018/183772885-7d774432-a5ec-49c4-a070-ded0be3573c0.png)
 
