@@ -1,6 +1,6 @@
 package test;
 
-import java.awt.Toolkit;
+import java.awt.Toolkit; 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
