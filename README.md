@@ -49,7 +49,7 @@ Click on **New repository secret**
 ![Secrets2](https://user-images.githubusercontent.com/20506018/183773660-ce4ddcda-8e2c-4d18-bf84-ccaa501e50b6.png)
 
 Enter **name** & **value** secrets and click **Add secret** (repeat this step for each of the variables below
-  - **APPLITOOLS_API_KEY**
+  - **APPLITOOLS_API_KEY** - your Applitools Api Key
   - **URL** - the website you wish to monitor (e.g. http://www.github.com)
   - **TITLE** - a name of what you're actually monitoring (e.g. product name, company name)
   
